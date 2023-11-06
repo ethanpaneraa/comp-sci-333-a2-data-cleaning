@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 chicago_schools_data = pd.read_csv("chicago-public-schools-high-school-progress-report-2013-2014.csv")
 
