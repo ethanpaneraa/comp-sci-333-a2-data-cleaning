@@ -1,5 +1,10 @@
 import pandas as pd
-import numpy as np
+
+### Data Cleaning ###
+# The dataset that we'll be using for this project is the Chicago Public Schools dataset from the Chicago Data Portal.
+# Link: https://data.cityofchicago.org/Education/Chicago-Public-Schools-High-School-Progress-Report/2m8w-izji\
+# This is a dataset that contains information about the performance of high schools in Chicago.
+# This project was done for Professor Jessica Hullman's Data Visualization class at Northwestern University.
 
 chicago_schools_data = pd.read_csv("chicago-public-schools-high-school-progress-report-2013-2014.csv")
 
